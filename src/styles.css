@@ -1,0 +1,282 @@
+/* styles.css */
+.banner {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.slider-container {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.my_text {
+  border-radius: 5px;
+  border: 1px solid rgb(223, 213, 213);
+  margin: 2rem 0;
+  padding: 10px;
+}
+
+.my-serv {
+  border-radius: 5px;
+  border: 1px solid rgb(223, 213, 213);
+  margin: 2rem 0;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    width: 100%;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    width: 25%;
+    max-width: 50%;
+    margin-right: 0 !important;
+  }
+
+  span.my-tel {
+    width: 15%;
+    text-align: center;
+  }
+}
+
+
+.service-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.text-primary {
+  color: #007bff !important;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card-text p {
+  margin-bottom: 1rem;
+}
+
+.my-5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.additional-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+
+/* form styling */
+
+.contact-form-container {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h2 {
+  font-family: 'Arial', sans-serif;
+  color: #007bff;
+}
+
+.contact-form-container .form-control {
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+  padding: 1rem;
+}
+
+.contact-form-container .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.contact-form-container .btn-submit {
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+}
+
+.contact-form-container .btn-submit:hover {
+  background-color: #0056b3;
+}
+
+/* navigation additonal styling */
+
+.navigation {
+  border-bottom: 1px solid #ccc;
+}
+
+.top-nav {
+  border-bottom: 1px solid #eee;
+}
+
+.search-bar .form-control {
+  border-radius: 20px;
+}
+
+.search-bar .btn {
+  border-radius: 20px;
+}
+
+.bottom-nav {
+  background-color: #f8c291;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.contact-info a {
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 2px;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  padding: 10px 15px;
+}
+
+@media (max-width: 767.98px) {
+  .contact-info {
+    display: none;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .search-bar {
+    margin-top: 10px;
+  }
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+
+.d-flex.flex-column.text-end.me-3.contact-info {
+  width: 45%;
+  gap: 3rem;
+}
+
+.mymail {
+  width: 30%;
+  text-align: center;
+}
+
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    width: 35%;
+  }
+}
+
+.flex-column {
+  flex-direction: row !important;
+}
+
+.mylogo {
+  height: 5rem;
+  width: 6rem;
+}
+
+.mysty {
+  flex-direction: row !important;
+}
+
+/* testimonail styling */
+
+.testimonial-card {
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+}
+
+.testimonial-card .card-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.testimonial-card .card-subtitle {
+  font-style: italic;
+}
+
+.testimonial-card .card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+.testimonial-card .card-footer {
+  background-color: #f8f9fa;
+  text-align: right;
+  font-weight: bold;
+}
+
+.d-lg-none.mt-2.w-100.text-center {
+  text-align: left !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.d-flex.flex-column.text-end.me-3.contact-info {
+  width: 45%;
+  gap: 1rem;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: right;
+}
